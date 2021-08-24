@@ -82,6 +82,18 @@ class Input:
         self.units = units
         self.eTypes = eTypes
         self.reserve = reserve
+        self.emergencyMap = {}
+        self.unitMap = {}
+        for emergency in emergencies:
+            try:
+                self.emergencyMap[emergency.Etype].append(emergency)
+            except:
+                self.emergencyMap[emergency.Etype] = [emergency]
+        for unit in units:
+            try:
+                self.unitMap[unit.Etype].append(unit)
+            except:
+                self.unitMap[unit.Etype] = [unit]
         # self.originalVector = originalVector
         '''
         Other Approach: origVector: vector of size units, contains n None values, where n is len(unuts)-len(emergencies). Then simple optimization.
@@ -89,7 +101,7 @@ class Input:
         
     # Method to create Input object from situation dict
     @classmethod
-    def from_situation(cls, situation, eTypes = []):
+    def from_situation(cls, situation):
         # load the json file
         json_data = situation
         # load the json data into objects
@@ -112,7 +124,7 @@ class Input:
             service_locations = service_location_objs,
             units = unit_objs,
             reserve = json_reserve,
-            eTypes = eTypes,
+            eTypes = json_eTypes,
         )
 
         
@@ -261,13 +273,19 @@ class Distribution:
     
     def __init__(self, input_situation, **kwargs):
         self.input_situation = input_situation
-        # print(len(input_situation.units), len(input_situation.emergencies))
-        self.sequence_vector = kwargs.pop('sequence_vector', np.random.uniform(-10, 10, len(input_situation.emergencies)))
-        self.alloted_units = kwargs.pop('alloted_units', random.sample(input_situation.units, len(input_situation.emergencies)))
-        self.vector = self.getVector()
+        self.alloted_units = []
+        self.vectors = {}
+        self.allocatedUnits = {}
+        for i in input_situation.eTypes:
+            self.vectors[i] = np.random.uniform(-10, 10, len(input_situation.emergencyMap[i]))
+            self.allocatedUnits[i] = random.sample(input_situation.unitMap[i], len(input_situation.emergencyMap[i]))
+        # self.sequence_vector = kwargs.pop('sequence_vector', np.random.uniform(-10, 10, len(input_situation.emergencies)))
+        # self.alloted_units = kwargs.pop('alloted_units', random.sample(input_situation.units, len(input_situation.emergencies)))
+        # self.vector = self.getVector()
+        self.allotment = self.getVectors()
         
-    def reset(self):
-        self.alloted_units = random.sample(self.input_situation.units, len(self.input_situation.emergencies))
+    # def reset(self):
+    #     self.alloted_units = random.sample(self.input_situation.units, len(self.input_situation.emergencies))
         
     def checkConstraints(self):
         for i in range(len(self.vector)):
@@ -285,20 +303,25 @@ class Distribution:
         return True
             
 
-    def updateVector(self):
-        self.vector = self.getVector()
         
-    def getVector(self):
+    def getVectors(self):
         """
         Applies the SPV rule and returns a list of units allocated in order to the emergencies in the input_situation
 
         Returns:
             [list]: sequence vector
         """        
-        dist = []
-        sorted_indices = np.argsort(self.sequence_vector)
-        for i in sorted_indices:
-            dist.append(self.alloted_units[i])
+        dist = {}
+        for i in self.input_situation.eTypes:
+                sorted_indices = np.argsort(self.vectors[i])
+                for j in sorted_indices:
+                    
+                    try:    
+                        dist[i].append(self.allocatedUnits[i][j])
+                    except:
+                        dist[i] = []
+                        dist[i].append(self.allocatedUnits[i][j])
+        
         return dist
     
     def fitness(self):
@@ -322,17 +345,27 @@ class Distribution:
         # for unit in self.allotment:
         #     dist_dict[unit] = euclidian_distance(unit.home.point, self.allotment[unit].point)
         #     dist_factor += dist_dict[unit] * (unit.severity_limit - self.allotment[unit].severity)
-        distribution = self.vector
-        for i in range(len(distribution)):
-            dist_dict[distribution[i]] = euclidian_distance(distribution[i].home.point, self.input_situation.emergencies[i].point)
+        
+        for i in self.input_situation.eTypes:
+            # Allotment of one etype
+            for j in range(len(self.allotment[i])):
+                unit = self.allotment[i][j]
+                distance = euclidian_distance(unit.home.point, self.input_situation.emergencyMap[i][j].point)
+                dist_factor += distance * (math.e ** (self.input_situation.emergencyMap[i][j].severity - unit.severity_limit))
+        
+        
+        
+        # distribution = self.vector
+        # for i in range(len(distribution)):
+        #     dist_dict[distribution[i]] = euclidian_distance(distribution[i].home.point, self.input_situation.emergencies[i].point)
             
-            severity_diff_dict[distribution[i]] = self.input_situation.emergencies[i].severity - distribution[i].severity_limit
+        #     severity_diff_dict[distribution[i]] = self.input_situation.emergencies[i].severity - distribution[i].severity_limit
             
-            dist_factor += dist_dict[distribution[i]] * (math.e ** (self.input_situation.emergencies[i].severity -  distribution[i].severity_limit))
-            # print(self.input_situation.emergencies[i].Etype, distribution[i].Etype)
-            if self.input_situation.emergencies[i].Etype != distribution[i].Etype:
-                dist_factor = float('inf')
-                break
+        #     dist_factor += dist_dict[distribution[i]] * (math.e ** (self.input_situation.emergencies[i].severity -  distribution[i].severity_limit))
+        #     # print(self.input_situation.emergencies[i].Etype, distribution[i].Etype)
+        #     if self.input_situation.emergencies[i].Etype != distribution[i].Etype:
+        #         dist_factor = float('inf')
+        #         break
             '''
             e = 5
             u = 3
@@ -347,10 +380,46 @@ class Distribution:
             
             '''
             
-            
+        # print(dist_factor)
         return dist_factor
     
+    def updateVector(self):
+        self.allotment = self.getVectors()
+    
     def plot(self, save=False, path=''):
+        markers = [["ro", "bo"], ["rv", "bv"]]
+        for i in range(len(self.input_situation.service_locations)):
+            # Use matplotlib to plot x, y of each point
+            plt.plot(self.input_situation.service_locations[i].point[0], self.input_situation.service_locations[i].point[1], markers[0][self.input_situation.service_locations[i].Etype-1])
+        for i in range(len(self.input_situation.emergencies)):
+            # Use matplotlib to plot x, y of each point
+            plt.plot(self.input_situation.emergencies[i].point[0], self.input_situation.emergencies[i].point[1], markers[1][self.input_situation.emergencies[i].Etype-1])
+        
+        for i in self.input_situation.eTypes:
+            for j in range(len(self.allotment[i])):
+                unit = self.allotment[i][j]
+                x_val = [unit.home.point[0], self.input_situation.emergencyMap[i][j].point[0]]
+                y_val = [unit.home.point[1], self.input_situation.emergencyMap[i][j].point[1]]
+                # Use matplotlib to plot x, y of each point
+                plt.plot(x_val, y_val)
+                # plt.text(x_val, y_val, str(i))
+        
+        
+        # for i in range(len(self.vector)):
+        #     x_val = [self.vector[i].home.point[0], self.input_situation.emergencies[i].point[0]]
+        #     y_val = [self.vector[i].home.point[1], self.input_situation.emergencies[i].point[1]]
+        #     # Use matplotlib to plot x, y of each point
+        #     plt.plot(x_val, y_val)
+        #     # plt.text(x_val, y_val, str(i))
+        if save:
+            plt.savefig(path)
+        else:
+            plt.show()
+        plt.close()
+      
+    
+    
+    def plotOld(self, save=False, path=''):
         markers = [["ro", "bo"], ["rv", "bv"]]
         for i in range(len(self.input_situation.service_locations)):
             # Use matplotlib to plot x, y of each point

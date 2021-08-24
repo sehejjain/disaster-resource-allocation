@@ -29,15 +29,22 @@ class Particle:
         self.pbest_value = float('inf')
         self.pbest_solution = self.distribution
         self.stagnancy = 0
-
-        self.velocity = np.zeros(len(self.distribution.sequence_vector))
+        self.velocity = {} 
+        for i in self.distribution.input_situation.eTypes:
+            try:
+                self.velocity[i] = np.zeros(len(self.distribution.vectors[i]))
+            except:
+                self.velocity[i] = [np.zeros(len(self.distribution.vectors[i]))]
 
 
     # def __str__(self):
     #     return ("My order is  " + str(self.SequenceVector(self)) + " my pbest is " + str(self.SequenceVector(self.pbest_solution, self.reads)))
 
     def move(self):
-        self.distribution.sequence_vector = self.distribution.sequence_vector + self.velocity
+        for i in self.distribution.input_situation.eTypes:
+            self.distribution.vectors[i] = self.distribution.vectors[i] + self.velocity[i]
+        
+        # self.distribution.sequence_vector = self.distribution.sequence_vector + self.velocity
         self.distribution.updateVector()
 
 
@@ -87,7 +94,7 @@ class PSO:
             else:
                 particle.stagnancy += 1
                 
-        print(particle.pbest_solution.fitness())
+        # print(particle.pbest_solution.fitness())
 
     def set_gbest(self):
         for particle in self.particles:
@@ -98,17 +105,14 @@ class PSO:
 
     def move_particles(self):
         for particle in self.particles:
-            if particle.stagnancy>3:
-                particle.distribution.reset()
-                continue
-            a = particle.velocity  # No Inertia
-            b = (c1*np.random.random()) * \
-                (particle.pbest_solution.sequence_vector - particle.distribution.sequence_vector)  # Cognitive
-            c = (np.random.random()*c2) * \
-                (self.gbest_solution.sequence_vector - particle.distribution.sequence_vector)  # Social
-
-            new_velocity = a+b+c
-            particle.velocity = new_velocity
+            for i in particle.distribution.input_situation.eTypes: 
+                a = particle.velocity[i]  # No Inertia
+                b = (c1*np.random.random()) * \
+                    (particle.pbest_solution.vectors[i] - particle.distribution.vectors[i])  # Cognitive
+                # print(b)
+                c = (np.random.random()*c2) * \
+                    (self.gbest_solution.vectors[i] - particle.distribution.vectors[i])  # Social
+                particle.velocity[i] = a+b+c
             particle.move()
 
     def run(self):
@@ -162,7 +166,7 @@ class PSO:
 # print("Final Sequence::",consensus(a))
 
 input_a = Input.from_situation(situation1)
-pso = PSO(input_a, iterations=100, population=10000)
+pso = PSO(input_a, iterations=100, population=100)
 pso.run()
 print(pso.getBest())
 print(pso.getBestFitness())
