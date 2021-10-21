@@ -156,3 +156,6 @@ cython_debug/
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 
 resource_allocation/units2emergencies/algorithms/*.png
+.DS_Store
+
+**/.DS_Store
