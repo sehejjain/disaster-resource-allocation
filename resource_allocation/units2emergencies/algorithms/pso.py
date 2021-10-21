@@ -50,13 +50,14 @@ class Particle:
 
 class PSO:
 
-    def __init__(self, input_situation, iterations, population, verbose=True, step=10):
+    def __init__(self, input_situation, iterations, population, verbose=True, step=10, save=False):
         self.iterations = iterations  # max of iterations
         self.population = population  # size population
         self.verbose = verbose
         self.step = step
         self.progress = []
         self.input_situation = input_situation
+        self.save=save
 
         # initialized with a group of random particles (solutions)
         particles = []
@@ -86,6 +87,7 @@ class PSO:
 
 
     def set_pbest(self):
+        # Minimize
         for particle in self.particles:
             fitness_cadidate = particle.distribution.fitness()
             if(particle.pbest_value > fitness_cadidate):
@@ -128,7 +130,8 @@ class PSO:
             self.set_gbest()
             self.progress.append(self.gbest_value)
             self.move_particles()
-            self.getBest().plot(save=True, path=str(step)+'.png')
+            if self.save:
+                self.getBest().plot(save=True, path=str(step)+'.png')
 
     # def getString(self):
     #     a = (Particle.SequenceVector(self.gbest_solution, self.reads))
@@ -166,8 +169,15 @@ class PSO:
 # print("Final Sequence::",consensus(a))
 
 input_a = Input.from_situation(situation1)
-pso = PSO(input_a, iterations=100, population=100)
+# input_a = Input.get_random_situation(100, 50, 10, x = (-1000, 1000), y = (-1000, 1000))
+# input_a.plot()
+pso = PSO(input_a, iterations=100, population=10, save=False)
 pso.run()
 print(pso.getBest())
 print(pso.getBestFitness())
-pso.getBest().plot()
+# pso.getBest().plot()
+
+import pandas as pd
+df = pd.DataFrame(pso.getProgress())
+df.to_csv('progress.csv')
+# df.plot()

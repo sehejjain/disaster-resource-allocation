@@ -128,9 +128,9 @@ class Input:
         )
 
         
-    @staticmethod
-    # Input Object from JSON file
-    def from_json(path):
+    # @staticmethod
+    # # Input Object from JSON file
+    # def from_json(path):
         # Load JSON file
         json_data = load_json(path)
         # Initialize data
@@ -190,7 +190,7 @@ class Input:
             r = range(n_service_locations)
         
         for _ in r:
-            service_locations.append(EmergencyServiceLocation(point=(np.random.randint(x[0], x[1]),np.random.randint(y[0], y[1])), Etype=np.random.randint(1, 3), personnel_avaliable=np.random.randint(2, n_personnel), n_units=np.random.randint(1, n_units)))
+            service_locations.append(EmergencyServiceLocation(point=(np.random.randint(x[0], x[1]),np.random.randint(y[0], y[1])), Etype=np.random.randint(1, 3), personnel_avaliable=np.random.randint(2, n_personnel), n_units=np.random.randint(1, n_units), unit_severities=np.random.randint(1, 5, size=n_units)))
         
         if verbose:
             r = tqdm.tqdm(service_locations, leave = False)
@@ -210,65 +210,30 @@ class Input:
         '''
         Function to plot points
         '''
+        x = []
+        y = []
+
         for i in range(len(self.service_locations)):
             # Use matplotlib to plot x, y of each point
-            plt.plot(self.service_locations[i].point[0], self.service_locations[i].point[1], 'bo')
+            x.append(self.service_locations[i].point[0])
+            y.append(self.service_locations[i].point[1])
+            # plt.plot(self.service_locations[i].point[0], self.service_locations[i].point[1],'bo', label='Service Locations')
+        plt.scatter(x, y, c='b', label='Service Locations', marker='o')
+        
+        x = []
+        y = []
         for i in range(len(self.emergencies)):
             # Use matplotlib to plot x, y of each point
-            plt.plot(self.emergencies[i].point[0], self.emergencies[i].point[1], 'rv')
-                
+            x.append(self.emergencies[i].point[0])
+            y.append(self.emergencies[i].point[1])
+            # plt.plot(self.emergencies[i].point[0], self.emergencies[i].point[1], 'rv', label='Emergencies')
+        plt.scatter(x, y, c='r', label='Emergencies', marker='v')
+        plt.legend()
+
+        # plt.tight_layout(rect=[0,0,0.75,1])
+
         plt.show()
     
-class DistributionOld:
-    
-    def __init__(self, input_situation, random = True):
-        self.allotment = {}
-        if len(input_situation.units) < len(input_situation.emergencies):
-            # TODO: Chage this to handle this exception
-            raise Exception("Number of units is less than number of emergencies")
-        
-        if random:
-            temp_emergencies = input_situation.emergencies.copy()
-            for unit in input_situation.units:
-                if len(temp_emergencies) == 0:
-                    break
-                if unit.Etype not in input_situation.eTypes:
-                    print(unit.Etype, input_situation.eTypes)
-                    continue
-                x = temp_emergencies.pop(np.random.randint(0, len(temp_emergencies)))
-                print(unit.Etype, input_situation.eTypes, temp_emergencies)
-                while x.Etype != unit.Etype and len(temp_emergencies) > 0:
-                    temp_emergencies.append(x)
-                    x = temp_emergencies.pop(np.random.randint(0, len(temp_emergencies)))
-                self.allotment[unit] = x
-                
-                
-
-    
-    def fitness(self):
-        """
-        Function to calculate fitness of the Distribution
-        To be maximized
-        Constraints:
-            1. Number of units alloted must be equal to number of Emergencies
-            2. Each emergency must be assigned to a unit
-            3. Each active unit must be assigned to one unique emergency
-            4. 
-
-        Returns:
-            [float]: Fitness of the distribution
-        """        
-        dist_dict = {}
-        dist_factor = 0
-        severity_factor = 0
-        for unit in self.allotment:
-            dist_dict[unit] = euclidian_distance(unit.home.point, self.allotment[unit].point)
-            dist_factor += dist_dict[unit] * (unit.severity_limit - self.allotment[unit].severity)
-            
-        
-        
-        return dist_factor
-        
 class Distribution:
     
     def __init__(self, input_situation, **kwargs):
@@ -403,6 +368,7 @@ class Distribution:
                 # Use matplotlib to plot x, y of each point
                 plt.plot(x_val, y_val)
                 # plt.text(x_val, y_val, str(i))
+                
         
         
         # for i in range(len(self.vector)):
