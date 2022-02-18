@@ -26,7 +26,7 @@ class Particle:
         # current solution
         self.distribution = Distribution(input_situation)
 
-        self.pbest_value = float('inf')
+        self.pbest_value = float('-inf')
         self.pbest_solution = self.distribution
         self.stagnancy = 0
         self.velocity = {} 
@@ -78,7 +78,7 @@ class PSO:
 
         # updates "population"
         self.population = len(self.particles)
-        self.gbest_value = float('inf')
+        self.gbest_value = float('-inf')
         self.gbest_solution = Particle(self.input_situation).distribution
 
     def print_particles(self):
@@ -90,7 +90,7 @@ class PSO:
         # Minimize
         for particle in self.particles:
             fitness_cadidate = particle.distribution.fitness()
-            if(particle.pbest_value > fitness_cadidate):
+            if(particle.pbest_value < fitness_cadidate):
                 particle.pbest_value = fitness_cadidate
                 particle.pbest_solution = particle.distribution
             else:
@@ -101,7 +101,7 @@ class PSO:
     def set_gbest(self):
         for particle in self.particles:
             best_fitness_cadidate = particle.distribution.fitness()
-            if(self.gbest_value > best_fitness_cadidate):
+            if(self.gbest_value< best_fitness_cadidate):
                 self.gbest_value = best_fitness_cadidate
                 self.gbest_solution = particle.distribution
 
@@ -138,10 +138,6 @@ class PSO:
     #     # b = (self.score(Particle.SequenceVector(self.gbest_solution, self.reads)))
     #     # print('gbest: {} | cost: {}\n'.format(a, b) )
     #     return a
-
-    # def getScore(self):
-    #     b = (self.score(Particle.SequenceVector(self.gbest_solution, self.reads)))
-    #     return b
     
     def getBestFitness(self):
         # return self.gbest_solution.sequence_vector
@@ -153,31 +149,3 @@ class PSO:
     def getProgress(self):
         return self.progress
 
-
-
-# # print(reads)
-
-# pso = PSO(reads1, iterations=10, population=100)
-# pso.run()
-# pso.getString()
-
-# # shows the global best particle
-# a = (Particle.SequenceVector(pso.gbest_solution, pso.reads))
-# b = (pso.score(Particle.SequenceVector(pso.gbest_solution, pso.reads)))
-# print('gbest: {} | cost: {}\n'.format(a, b) )
-
-# print("Final Sequence::",consensus(a))
-
-input_a = Input.from_situation(situation1)
-# input_a = Input.get_random_situation(100, 50, 10, x = (-1000, 1000), y = (-1000, 1000))
-# input_a.plot()
-pso = PSO(input_a, iterations=100, population=10, save=False)
-pso.run()
-print(pso.getBest())
-print(pso.getBestFitness())
-# pso.getBest().plot()
-
-import pandas as pd
-df = pd.DataFrame(pso.getProgress())
-df.to_csv('progress.csv')
-# df.plot()

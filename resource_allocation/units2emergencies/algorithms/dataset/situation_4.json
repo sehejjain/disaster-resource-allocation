@@ -1,0 +1,5711 @@
+{
+    "emergencies": [
+        {
+            "point": [
+                37,
+                52
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                41,
+                -40
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -78,
+                67
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -62,
+                57
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                45,
+                59
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -14,
+                -99
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                38,
+                -51
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -20,
+                -90
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -80,
+                72
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -10,
+                46
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                12,
+                -11
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                76,
+                36
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -80,
+                -85
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -24,
+                93
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -88,
+                -65
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -88,
+                -10
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -21,
+                76
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                59,
+                1
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -57,
+                -86
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                63,
+                25
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                84,
+                42
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                32,
+                20
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                71,
+                -90
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                19,
+                -62
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -95,
+                -79
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -10,
+                -35
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                95,
+                18
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                38,
+                -13
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -43,
+                -68
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -4,
+                84
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -91,
+                -65
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                7,
+                37
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -72,
+                -33
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                68,
+                -5
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                3,
+                -98
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                5,
+                -64
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -5,
+                94
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -21,
+                -3
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                88,
+                -22
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -41,
+                -70
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -35,
+                -13
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -13,
+                20
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                20,
+                70
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -63,
+                55
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                81,
+                81
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                97,
+                62
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -67,
+                -92
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                28,
+                3
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                41,
+                -96
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                12,
+                -10
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -35,
+                78
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                17,
+                17
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                72,
+                -14
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                19,
+                64
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                23,
+                -21
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                0,
+                -39
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                89,
+                -73
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                8,
+                -75
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                50,
+                96
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                45,
+                65
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                12,
+                -18
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -48,
+                -89
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -4,
+                14
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                4,
+                96
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -92,
+                -85
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                39,
+                41
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -44,
+                -58
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                99,
+                -59
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                36,
+                -74
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -73,
+                10
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                33,
+                -83
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -43,
+                -76
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -23,
+                32
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -31,
+                -68
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                93,
+                -19
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -25,
+                -72
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                45,
+                74
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -22,
+                -95
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -43,
+                -43
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -91,
+                -73
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -95,
+                -72
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                14,
+                87
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                21,
+                -65
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                23,
+                75
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                60,
+                -66
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -26,
+                -63
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -96,
+                -96
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                44,
+                -3
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -60,
+                33
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                99,
+                -20
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                24,
+                -98
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                50,
+                -49
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                14,
+                97
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                94,
+                78
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -66,
+                93
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                23,
+                -57
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                69,
+                -60
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -23,
+                -38
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -84,
+                -51
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -52,
+                50
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -85,
+                22
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                37,
+                90
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -41,
+                20
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -32,
+                18
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -23,
+                -81
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                96,
+                41
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -6,
+                60
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                62,
+                34
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -88,
+                47
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                77,
+                81
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                81,
+                -98
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                43,
+                -70
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -64,
+                -80
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                54,
+                15
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                87,
+                28
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                84,
+                -83
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -89,
+                -32
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                94,
+                -65
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                96,
+                -98
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                95,
+                5
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -85,
+                -32
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -80,
+                -60
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                17,
+                -94
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -1,
+                10
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                2,
+                -4
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                71,
+                -100
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                17,
+                54
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -6,
+                97
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                79,
+                -38
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                14,
+                40
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                41,
+                -39
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -14,
+                -14
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                76,
+                -59
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -68,
+                93
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                81,
+                -19
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -13,
+                -53
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -81,
+                19
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                73,
+                -59
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                31,
+                23
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -59,
+                56
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                89,
+                43
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                64,
+                40
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                77,
+                67
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                9,
+                -51
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                31,
+                -19
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -2,
+                -84
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                98,
+                38
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                92,
+                55
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                87,
+                15
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -10,
+                21
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                96,
+                -31
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                95,
+                30
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                53,
+                69
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -51,
+                -93
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                21,
+                65
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -13,
+                -96
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                40,
+                61
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                13,
+                -75
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                76,
+                51
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                76,
+                -59
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -66,
+                49
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -23,
+                -69
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                69,
+                46
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                49,
+                -42
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                53,
+                32
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                82,
+                -61
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                21,
+                19
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -75,
+                26
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -64,
+                -82
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                26,
+                -69
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -10,
+                81
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -18,
+                -9
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -73,
+                -95
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -10,
+                -1
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                4,
+                84
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                0,
+                -35
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                27,
+                -60
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                91,
+                -45
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                16,
+                4
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -29,
+                30
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -88,
+                82
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -60,
+                43
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                33,
+                -50
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                12,
+                -89
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -36,
+                -12
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                46,
+                -86
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -2,
+                99
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -24,
+                30
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                40,
+                -80
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                72,
+                48
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                0,
+                -12
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -29,
+                -92
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -70,
+                -36
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                1,
+                -97
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -35,
+                -14
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -54,
+                61
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                29,
+                -13
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                40,
+                33
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                97,
+                -58
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -73,
+                96
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                11,
+                54
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                45,
+                37
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                17,
+                38
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -24,
+                18
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                43,
+                90
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                67,
+                -19
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -79,
+                54
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                80,
+                94
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -37,
+                99
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -82,
+                -52
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -86,
+                -24
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -68,
+                -20
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                62,
+                0
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -89,
+                22
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                35,
+                41
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                35,
+                35
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -96,
+                29
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -63,
+                66
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                7,
+                6
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -19,
+                59
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                3,
+                92
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -5,
+                28
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                39,
+                23
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -52,
+                -77
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -7,
+                38
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -21,
+                38
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -94,
+                39
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                17,
+                82
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -8,
+                1
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                84,
+                -40
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                62,
+                -84
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                54,
+                28
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                55,
+                -29
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                23,
+                -85
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -93,
+                68
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                7,
+                -17
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                94,
+                29
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                70,
+                -88
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                15,
+                41
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                66,
+                -78
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                93,
+                -10
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                28,
+                45
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -84,
+                19
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                21,
+                75
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                12,
+                78
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -46,
+                70
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                66,
+                -73
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                8,
+                21
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -52,
+                -82
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -44,
+                98
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -30,
+                93
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                65,
+                75
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -12,
+                55
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                90,
+                -94
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -58,
+                95
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -41,
+                88
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                48,
+                72
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                67,
+                -28
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                29,
+                -93
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -93,
+                15
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -34,
+                92
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -82,
+                -49
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -49,
+                26
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                87,
+                77
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -87,
+                85
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -15,
+                96
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                88,
+                79
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -51,
+                14
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                93,
+                28
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                98,
+                61
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                73,
+                -8
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -50,
+                -79
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                69,
+                38
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -14,
+                -95
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -31,
+                -36
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -61,
+                -56
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -2,
+                -4
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                93,
+                -44
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -27,
+                -77
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                60,
+                81
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                19,
+                39
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -27,
+                96
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                36,
+                -96
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                98,
+                -32
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                49,
+                81
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -7,
+                25
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -72,
+                -25
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                9,
+                -85
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -15,
+                -54
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                27,
+                48
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -11,
+                -42
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -96,
+                25
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                80,
+                -94
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -1,
+                -30
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                87,
+                26
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                50,
+                -71
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -44,
+                -14
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -16,
+                -66
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                75,
+                53
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -50,
+                12
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -8,
+                -76
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                92,
+                63
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                77,
+                -4
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                93,
+                7
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -75,
+                -3
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -48,
+                30
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -18,
+                -56
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -77,
+                24
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                42,
+                -64
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                2,
+                63
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -63,
+                -94
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                16,
+                42
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                16,
+                -98
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                44,
+                -42
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -74,
+                26
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                46,
+                66
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -59,
+                -71
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -1,
+                -100
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                52,
+                -29
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -33,
+                -68
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                65,
+                71
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -22,
+                90
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                33,
+                47
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -36,
+                -56
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                38,
+                41
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -60,
+                -41
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -35,
+                -64
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                81,
+                -92
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                40,
+                -83
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -88,
+                14
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -66,
+                90
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                89,
+                -11
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -16,
+                26
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -25,
+                64
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -51,
+                36
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -82,
+                -44
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -30,
+                -47
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -53,
+                -10
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                72,
+                -18
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                54,
+                -26
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -87,
+                -78
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                81,
+                -31
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                41,
+                33
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -50,
+                99
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                7,
+                -42
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -19,
+                -87
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -40,
+                -54
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                62,
+                -4
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                21,
+                -78
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                19,
+                -61
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -8,
+                -36
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                54,
+                11
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -72,
+                -34
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                20,
+                4
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                74,
+                92
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -59,
+                86
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                33,
+                64
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -37,
+                71
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -69,
+                -53
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                40,
+                -2
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -90,
+                8
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                45,
+                54
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                57,
+                -14
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                3,
+                -89
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -25,
+                14
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                85,
+                93
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                91,
+                58
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                23,
+                81
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -35,
+                -54
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -25,
+                -79
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -66,
+                3
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                94,
+                18
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                24,
+                32
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                53,
+                12
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -89,
+                -30
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -89,
+                -21
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -26,
+                -36
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                53,
+                30
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -83,
+                53
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -37,
+                91
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                72,
+                -78
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -34,
+                32
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                72,
+                -83
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                74,
+                -61
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                11,
+                65
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -46,
+                -69
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -55,
+                -81
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                52,
+                -17
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -13,
+                -20
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                99,
+                66
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -1,
+                -31
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                12,
+                -95
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -91,
+                59
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                6,
+                -37
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                52,
+                23
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -3,
+                48
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                1,
+                60
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                43,
+                89
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -97,
+                -57
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -71,
+                53
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -46,
+                -74
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -26,
+                10
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                10,
+                43
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                44,
+                68
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -64,
+                89
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                36,
+                25
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                55,
+                -69
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                72,
+                70
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -57,
+                -24
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -53,
+                -78
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                46,
+                -89
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -1,
+                -25
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -80,
+                33
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                90,
+                59
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                12,
+                -7
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -43,
+                34
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -45,
+                -41
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -89,
+                17
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                5,
+                85
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                67,
+                -26
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -6,
+                -66
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -52,
+                -27
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -44,
+                78
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -90,
+                60
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -100,
+                -77
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -64,
+                49
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                32,
+                49
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -38,
+                70
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -97,
+                -82
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                26,
+                92
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -7,
+                20
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                1,
+                47
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -51,
+                -55
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                76,
+                4
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -19,
+                -46
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -80,
+                -13
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -57,
+                51
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                46,
+                5
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                57,
+                -97
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -85,
+                -76
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -3,
+                -49
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -60,
+                -76
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                49,
+                -22
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -16,
+                47
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -7,
+                79
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -75,
+                -50
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                70,
+                99
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -96,
+                50
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -36,
+                49
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                44,
+                12
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -91,
+                -51
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                69,
+                -67
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -83,
+                -78
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -82,
+                87
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -43,
+                -5
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                73,
+                71
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                11,
+                41
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                74,
+                99
+            ],
+            "severity": 1,
+            "Etype": 1
+        },
+        {
+            "point": [
+                21,
+                -99
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -62,
+                -81
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                86,
+                -72
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -49,
+                37
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -78,
+                -5
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                11,
+                71
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                6,
+                51
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -24,
+                50
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                44,
+                -66
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                6,
+                97
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                0,
+                -26
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                88,
+                -50
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                70,
+                9
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -88,
+                95
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -96,
+                52
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -66,
+                74
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -94,
+                -58
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -78,
+                8
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                31,
+                95
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                51,
+                -15
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -4,
+                -46
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -34,
+                3
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -59,
+                -21
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -100,
+                49
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                51,
+                64
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                68,
+                90
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -73,
+                -78
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                36,
+                15
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -97,
+                47
+            ],
+            "severity": 2,
+            "Etype": 1
+        },
+        {
+            "point": [
+                82,
+                -24
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                -71,
+                -22
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                31,
+                10
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                96,
+                4
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                73,
+                -88
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -26,
+                71
+            ],
+            "severity": 3,
+            "Etype": 2
+        },
+        {
+            "point": [
+                99,
+                -56
+            ],
+            "severity": 4,
+            "Etype": 1
+        },
+        {
+            "point": [
+                70,
+                14
+            ],
+            "severity": 3,
+            "Etype": 1
+        },
+        {
+            "point": [
+                84,
+                46
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                63,
+                -69
+            ],
+            "severity": 1,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -3,
+                57
+            ],
+            "severity": 4,
+            "Etype": 2
+        },
+        {
+            "point": [
+                72,
+                87
+            ],
+            "severity": 2,
+            "Etype": 2
+        },
+        {
+            "point": [
+                -16,
+                95
+            ],
+            "severity": 4,
+            "Etype": 2
+        }
+    ],
+    "service_locations": [
+        {
+            "point": [
+                -95,
+                -18
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 4,
+            "unit_severities": [
+                2,
+                4,
+                4,
+                3,
+                2,
+                2
+            ]
+        },
+        {
+            "point": [
+                -77,
+                61
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 8,
+            "n_units": 5,
+            "unit_severities": [
+                1,
+                3,
+                4,
+                3,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                26,
+                -38
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 5,
+            "unit_severities": [
+                2,
+                4,
+                4,
+                4,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                -10,
+                24
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 2,
+            "n_units": 4,
+            "unit_severities": [
+                2,
+                3,
+                2,
+                2,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                -11,
+                -5
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                4,
+                4,
+                3,
+                2,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                -86,
+                9
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 1,
+            "unit_severities": [
+                3,
+                2,
+                1,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                88,
+                -66
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 5,
+            "unit_severities": [
+                2,
+                3,
+                1,
+                1,
+                4,
+                4
+            ]
+        },
+        {
+            "point": [
+                20,
+                -6
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 2,
+            "n_units": 5,
+            "unit_severities": [
+                2,
+                1,
+                1,
+                3,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                -39,
+                2
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 5,
+            "unit_severities": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                4
+            ]
+        },
+        {
+            "point": [
+                7,
+                19
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 1,
+            "unit_severities": [
+                2,
+                3,
+                1,
+                1,
+                4,
+                4
+            ]
+        },
+        {
+            "point": [
+                83,
+                86
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 4,
+            "unit_severities": [
+                1,
+                3,
+                3,
+                1,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                17,
+                -23
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 4,
+            "unit_severities": [
+                2,
+                4,
+                2,
+                1,
+                3,
+                2
+            ]
+        },
+        {
+            "point": [
+                -29,
+                57
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 7,
+            "n_units": 1,
+            "unit_severities": [
+                1,
+                1,
+                4,
+                4,
+                3,
+                4
+            ]
+        },
+        {
+            "point": [
+                96,
+                -81
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 2,
+            "unit_severities": [
+                3,
+                4,
+                3,
+                2,
+                1,
+                3
+            ]
+        },
+        {
+            "point": [
+                75,
+                34
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 4,
+            "unit_severities": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                7,
+                -78
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 6,
+            "n_units": 2,
+            "unit_severities": [
+                4,
+                1,
+                4,
+                4,
+                2,
+                2
+            ]
+        },
+        {
+            "point": [
+                63,
+                -35
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 4,
+            "unit_severities": [
+                4,
+                4,
+                3,
+                1,
+                2,
+                2
+            ]
+        },
+        {
+            "point": [
+                31,
+                -54
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 7,
+            "n_units": 4,
+            "unit_severities": [
+                4,
+                3,
+                2,
+                3,
+                2,
+                2
+            ]
+        },
+        {
+            "point": [
+                -5,
+                -78
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 8,
+            "n_units": 2,
+            "unit_severities": [
+                1,
+                1,
+                3,
+                3,
+                2,
+                2
+            ]
+        },
+        {
+            "point": [
+                -8,
+                -51
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                3,
+                1,
+                4,
+                3,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                -7,
+                -23
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 8,
+            "n_units": 5,
+            "unit_severities": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                4
+            ]
+        },
+        {
+            "point": [
+                85,
+                40
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 6,
+            "n_units": 5,
+            "unit_severities": [
+                3,
+                1,
+                3,
+                1,
+                3,
+                1
+            ]
+        },
+        {
+            "point": [
+                67,
+                -50
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                3,
+                3,
+                3,
+                2,
+                2,
+                4
+            ]
+        },
+        {
+            "point": [
+                36,
+                -51
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 6,
+            "n_units": 1,
+            "unit_severities": [
+                4,
+                1,
+                2,
+                3,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                -61,
+                -89
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 2,
+            "n_units": 5,
+            "unit_severities": [
+                3,
+                3,
+                2,
+                3,
+                3,
+                4
+            ]
+        },
+        {
+            "point": [
+                -18,
+                -78
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 1,
+            "unit_severities": [
+                2,
+                3,
+                1,
+                1,
+                3,
+                3
+            ]
+        },
+        {
+            "point": [
+                -9,
+                -27
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 4,
+            "unit_severities": [
+                2,
+                2,
+                1,
+                3,
+                1,
+                4
+            ]
+        },
+        {
+            "point": [
+                -68,
+                32
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 2,
+            "n_units": 5,
+            "unit_severities": [
+                4,
+                3,
+                3,
+                2,
+                2,
+                1
+            ]
+        },
+        {
+            "point": [
+                -43,
+                90
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 4,
+            "unit_severities": [
+                3,
+                1,
+                3,
+                3,
+                1,
+                2
+            ]
+        },
+        {
+            "point": [
+                -21,
+                -28
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 5,
+            "n_units": 4,
+            "unit_severities": [
+                3,
+                2,
+                2,
+                2,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                -28,
+                70
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 3,
+            "unit_severities": [
+                1,
+                4,
+                3,
+                4,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                41,
+                -93
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                2,
+                3,
+                3,
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "point": [
+                18,
+                99
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 5,
+            "unit_severities": [
+                4,
+                2,
+                1,
+                2,
+                1,
+                2
+            ]
+        },
+        {
+            "point": [
+                25,
+                -92
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 5,
+            "n_units": 4,
+            "unit_severities": [
+                4,
+                3,
+                4,
+                4,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                11,
+                -16
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 5,
+            "unit_severities": [
+                3,
+                4,
+                2,
+                4,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                1,
+                -85
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 4,
+            "n_units": 5,
+            "unit_severities": [
+                3,
+                2,
+                2,
+                1,
+                2,
+                1
+            ]
+        },
+        {
+            "point": [
+                -50,
+                -98
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 8,
+            "n_units": 4,
+            "unit_severities": [
+                1,
+                4,
+                2,
+                3,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                38,
+                -15
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 8,
+            "n_units": 1,
+            "unit_severities": [
+                4,
+                3,
+                1,
+                4,
+                3,
+                3
+            ]
+        },
+        {
+            "point": [
+                -84,
+                9
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 8,
+            "n_units": 4,
+            "unit_severities": [
+                4,
+                2,
+                2,
+                3,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                67,
+                25
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 3,
+            "unit_severities": [
+                4,
+                2,
+                4,
+                3,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                -24,
+                13
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 3,
+            "unit_severities": [
+                1,
+                2,
+                4,
+                2,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                -28,
+                28
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 5,
+            "n_units": 2,
+            "unit_severities": [
+                3,
+                4,
+                1,
+                3,
+                3,
+                4
+            ]
+        },
+        {
+            "point": [
+                -70,
+                43
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 2,
+            "n_units": 2,
+            "unit_severities": [
+                2,
+                2,
+                3,
+                1,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                -28,
+                23
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 5,
+            "n_units": 2,
+            "unit_severities": [
+                1,
+                2,
+                2,
+                4,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                -50,
+                -56
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 8,
+            "n_units": 2,
+            "unit_severities": [
+                4,
+                4,
+                3,
+                4,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                84,
+                -27
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 3,
+            "unit_severities": [
+                1,
+                2,
+                4,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                13,
+                -6
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 8,
+            "n_units": 2,
+            "unit_severities": [
+                3,
+                4,
+                2,
+                4,
+                2,
+                1
+            ]
+        },
+        {
+            "point": [
+                -100,
+                -64
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 5,
+            "unit_severities": [
+                2,
+                3,
+                3,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                70,
+                1
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 4,
+            "unit_severities": [
+                4,
+                4,
+                2,
+                4,
+                3,
+                1
+            ]
+        },
+        {
+            "point": [
+                -75,
+                -46
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 6,
+            "n_units": 3,
+            "unit_severities": [
+                4,
+                3,
+                3,
+                2,
+                2,
+                4
+            ]
+        },
+        {
+            "point": [
+                22,
+                -68
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 4,
+            "n_units": 5,
+            "unit_severities": [
+                4,
+                3,
+                2,
+                4,
+                3,
+                1
+            ]
+        },
+        {
+            "point": [
+                -47,
+                80
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 1,
+            "unit_severities": [
+                2,
+                2,
+                4,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                -54,
+                -90
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 6,
+            "n_units": 2,
+            "unit_severities": [
+                2,
+                3,
+                1,
+                4,
+                3,
+                2
+            ]
+        },
+        {
+            "point": [
+                55,
+                86
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 2,
+            "unit_severities": [
+                2,
+                4,
+                4,
+                2,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                75,
+                -11
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 2,
+            "unit_severities": [
+                1,
+                1,
+                1,
+                3,
+                4,
+                4
+            ]
+        },
+        {
+            "point": [
+                -36,
+                -13
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 8,
+            "n_units": 3,
+            "unit_severities": [
+                4,
+                2,
+                4,
+                2,
+                1,
+                3
+            ]
+        },
+        {
+            "point": [
+                -57,
+                -70
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 6,
+            "n_units": 4,
+            "unit_severities": [
+                3,
+                4,
+                2,
+                4,
+                2,
+                2
+            ]
+        },
+        {
+            "point": [
+                -79,
+                27
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 2,
+            "unit_severities": [
+                4,
+                1,
+                4,
+                2,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                95,
+                1
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 1,
+            "unit_severities": [
+                4,
+                3,
+                1,
+                3,
+                2,
+                4
+            ]
+        },
+        {
+            "point": [
+                -61,
+                -46
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 4,
+            "n_units": 1,
+            "unit_severities": [
+                3,
+                4,
+                4,
+                3,
+                3,
+                4
+            ]
+        },
+        {
+            "point": [
+                -32,
+                82
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 7,
+            "n_units": 1,
+            "unit_severities": [
+                3,
+                2,
+                1,
+                3,
+                1,
+                2
+            ]
+        },
+        {
+            "point": [
+                -70,
+                68
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 5,
+            "n_units": 1,
+            "unit_severities": [
+                3,
+                1,
+                2,
+                1,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                20,
+                -27
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 3,
+            "unit_severities": [
+                4,
+                1,
+                4,
+                1,
+                2,
+                1
+            ]
+        },
+        {
+            "point": [
+                -78,
+                94
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 5,
+            "unit_severities": [
+                4,
+                3,
+                1,
+                1,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                -78,
+                8
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 2,
+            "n_units": 1,
+            "unit_severities": [
+                1,
+                1,
+                1,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                -82,
+                29
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                2,
+                2,
+                2,
+                1,
+                3,
+                2
+            ]
+        },
+        {
+            "point": [
+                6,
+                81
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 8,
+            "n_units": 3,
+            "unit_severities": [
+                1,
+                4,
+                2,
+                4,
+                3,
+                2
+            ]
+        },
+        {
+            "point": [
+                -79,
+                35
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 5,
+            "unit_severities": [
+                1,
+                3,
+                4,
+                1,
+                4,
+                4
+            ]
+        },
+        {
+            "point": [
+                79,
+                -39
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 2,
+            "n_units": 4,
+            "unit_severities": [
+                2,
+                2,
+                3,
+                3,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                -34,
+                69
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                4,
+                4,
+                2,
+                4,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                75,
+                -76
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 5,
+            "unit_severities": [
+                1,
+                2,
+                3,
+                3,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                -25,
+                52
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 8,
+            "n_units": 3,
+            "unit_severities": [
+                1,
+                1,
+                4,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "point": [
+                -71,
+                -89
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 2,
+            "n_units": 1,
+            "unit_severities": [
+                4,
+                1,
+                4,
+                4,
+                3,
+                1
+            ]
+        },
+        {
+            "point": [
+                21,
+                -43
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 4,
+            "unit_severities": [
+                3,
+                3,
+                4,
+                3,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                72,
+                87
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 3,
+            "unit_severities": [
+                3,
+                3,
+                3,
+                1,
+                3,
+                2
+            ]
+        },
+        {
+            "point": [
+                70,
+                -6
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 1,
+            "unit_severities": [
+                4,
+                4,
+                2,
+                3,
+                3,
+                2
+            ]
+        },
+        {
+            "point": [
+                74,
+                -87
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 4,
+            "n_units": 3,
+            "unit_severities": [
+                4,
+                3,
+                3,
+                3,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                18,
+                13
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 2,
+            "unit_severities": [
+                2,
+                1,
+                3,
+                1,
+                4,
+                4
+            ]
+        },
+        {
+            "point": [
+                49,
+                -44
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                2,
+                2,
+                2,
+                3,
+                3,
+                3
+            ]
+        },
+        {
+            "point": [
+                -70,
+                -57
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 4,
+            "n_units": 4,
+            "unit_severities": [
+                4,
+                4,
+                4,
+                1,
+                1,
+                3
+            ]
+        },
+        {
+            "point": [
+                83,
+                68
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 5,
+            "n_units": 4,
+            "unit_severities": [
+                1,
+                3,
+                3,
+                4,
+                3,
+                3
+            ]
+        },
+        {
+            "point": [
+                36,
+                31
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 2,
+            "n_units": 4,
+            "unit_severities": [
+                2,
+                3,
+                2,
+                4,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                64,
+                -77
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 5,
+            "unit_severities": [
+                1,
+                4,
+                2,
+                1,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                60,
+                -93
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 3,
+            "unit_severities": [
+                2,
+                1,
+                3,
+                1,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                82,
+                -77
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 3,
+            "unit_severities": [
+                3,
+                4,
+                1,
+                2,
+                3,
+                3
+            ]
+        },
+        {
+            "point": [
+                -66,
+                44
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 5,
+            "n_units": 1,
+            "unit_severities": [
+                1,
+                3,
+                3,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                24,
+                47
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 7,
+            "n_units": 4,
+            "unit_severities": [
+                4,
+                1,
+                4,
+                3,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                -48,
+                -98
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 8,
+            "n_units": 3,
+            "unit_severities": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1
+            ]
+        },
+        {
+            "point": [
+                -36,
+                -32
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 3,
+            "n_units": 4,
+            "unit_severities": [
+                3,
+                4,
+                3,
+                3,
+                3,
+                4
+            ]
+        },
+        {
+            "point": [
+                57,
+                32
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 5,
+            "n_units": 3,
+            "unit_severities": [
+                3,
+                2,
+                2,
+                2,
+                3,
+                2
+            ]
+        },
+        {
+            "point": [
+                88,
+                64
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 5,
+            "n_units": 2,
+            "unit_severities": [
+                1,
+                2,
+                4,
+                2,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                60,
+                -65
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 1,
+            "unit_severities": [
+                4,
+                4,
+                1,
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                87,
+                -59
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 4,
+            "n_units": 2,
+            "unit_severities": [
+                1,
+                1,
+                3,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "point": [
+                -77,
+                6
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 8,
+            "n_units": 2,
+            "unit_severities": [
+                3,
+                4,
+                1,
+                4,
+                4,
+                1
+            ]
+        },
+        {
+            "point": [
+                48,
+                3
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 4,
+            "unit_severities": [
+                2,
+                4,
+                4,
+                3,
+                4,
+                3
+            ]
+        },
+        {
+            "point": [
+                -79,
+                -67
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 7,
+            "n_units": 3,
+            "unit_severities": [
+                2,
+                1,
+                4,
+                4,
+                2,
+                1
+            ]
+        },
+        {
+            "point": [
+                -29,
+                11
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 3,
+            "n_units": 3,
+            "unit_severities": [
+                1,
+                3,
+                4,
+                3,
+                2,
+                1
+            ]
+        },
+        {
+            "point": [
+                -59,
+                21
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 9,
+            "n_units": 5,
+            "unit_severities": [
+                4,
+                4,
+                4,
+                3,
+                4,
+                2
+            ]
+        },
+        {
+            "point": [
+                87,
+                39
+            ],
+            "Etype": 1,
+            "personnel_avaliable": 6,
+            "n_units": 2,
+            "unit_severities": [
+                2,
+                2,
+                3,
+                3,
+                2,
+                3
+            ]
+        },
+        {
+            "point": [
+                -87,
+                65
+            ],
+            "Etype": 2,
+            "personnel_avaliable": 9,
+            "n_units": 5,
+            "unit_severities": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                1
+            ]
+        }
+    ],
+    "reserve": 0.2,
+    "eTypes": [
+        1,
+        2
+    ]
+}

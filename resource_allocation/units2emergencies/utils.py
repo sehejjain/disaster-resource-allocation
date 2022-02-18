@@ -56,6 +56,15 @@ class EmergencyServiceLocation:
     def unitsFromSeverity(self):
         for i in self.unit_severities:
             self.available.append(Unit(self, self.Etype, 4, i))
+    
+    def to_json(self):
+        return {
+            "point": self.point,
+            "Etype": self.Etype,
+            "personnel_avaliable": self.personnel_avaliable,
+            "n_units": self.n_units,
+            "unit_severities": self.unit_severities.tolist()
+        }
 
 class Unit:
 
@@ -72,6 +81,13 @@ class Emergency:
         self.point = point
         self.severity = severity
         self.Etype = Etype
+        
+    def to_json(self):
+        return {
+            "point": self.point,
+            "severity": self.severity,
+            "Etype": self.Etype
+        }
     
 
 class Input:
@@ -126,6 +142,18 @@ class Input:
             reserve = json_reserve,
             eTypes = json_eTypes,
         )
+        
+    def to_json(self):
+        all_emergencies = []
+        for e in self.emergencies:
+            all_emergencies.append(e.to_json())
+            
+        all_locs = []
+        for loc in self.service_locations:
+            all_locs.append(loc.to_json())
+        
+        return {"emergencies": all_emergencies, "service_locations": all_locs, "reserve": self.reserve, "eTypes": self.eTypes}
+        
 
         
     # @staticmethod
@@ -153,7 +181,7 @@ class Input:
         
         
     @staticmethod
-    def get_random_situation(n_emergencies, n_service_locations, n_personnel, n_units = 5, x = (-100, 100), y = (-100, 100), verbose = True):
+    def get_random_situation(n_emergencies, n_service_locations, n_personnel, n_units = 5, x = (-100, 100), y = (-100, 100), verbose = False, etypes=3):
         """
         TODO: Needs to be modified
         Random Landscape
@@ -179,7 +207,7 @@ class Input:
             r = range(n_emergencies)
         
         for _ in r:
-            etype = np.random.randint(1, 3)
+            etype = np.random.randint(1, etypes)
             emergencies.append(Emergency(point=(np.random.randint(x[0], x[1]),np.random.randint(y[0], y[1])), Etype=etype, severity=np.random.randint(1, 5)))
             eTypes.append(etype)
         eTypes = list(set(eTypes))
@@ -190,7 +218,7 @@ class Input:
             r = range(n_service_locations)
         
         for _ in r:
-            service_locations.append(EmergencyServiceLocation(point=(np.random.randint(x[0], x[1]),np.random.randint(y[0], y[1])), Etype=np.random.randint(1, 3), personnel_avaliable=np.random.randint(2, n_personnel), n_units=np.random.randint(1, n_units), unit_severities=np.random.randint(1, 5, size=n_units)))
+            service_locations.append(EmergencyServiceLocation(point=(np.random.randint(x[0], x[1]),np.random.randint(y[0], y[1])), Etype=np.random.randint(1, etypes), personnel_avaliable=np.random.randint(2, n_personnel), n_units=np.random.randint(1, n_units), unit_severities=np.random.randint(1, 5, size=n_units)))
         
         if verbose:
             r = tqdm.tqdm(service_locations, leave = False)
